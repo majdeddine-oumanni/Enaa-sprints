@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  button{
+    cursor: pointer;
+  }
+  body{
+    background-color: black;
+  }
+  header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+  .logo-img{
+    width: 160px;
+    flex: 1fr;
+  }
+  .right{
+    flex: 1fr;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact{
+    background-color: black;
+    color: white;
+    border: none;
+    min-width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.2s;
+    margin-right: 10px;
+    margin-left: 24px;
+  }
+  .contact:hover{
+    background-color: white;
+    border: solid 2px black;
+    background-color: white;
+    color: black;
+  }
+  .head-button{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    margin-right: 16px;
+    transition: 0.2s;
+    white-space: nowrap;
+  }
+  .head-button:hover{
+    background-color: rgb(219, 219, 219);
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #name{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 100px;
+    font-family: "Roboto";
+  }
+  #expression{
+    color: white;
+    text-align: center;    
+    white-space: nowrap;
+    font-family: 'Courier New';
+  }
+  footer{
+    background-color: rgb(38, 38, 38);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+  }
+  
